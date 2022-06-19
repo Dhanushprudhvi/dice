@@ -88,19 +88,19 @@ switch(val2)
 if(val1>val2)
 {
     document.querySelector('h1').innerHTML='player1 wins';
-    document.querySelector('.dice1 .text').innerHTML='<h3>player1<br>('+val1+')</br></h3>';
-    document.querySelector('.dice2 .text').innerHTML='<h3>player2<br>('+val2+')</br></h3>';
+    document.querySelector('.dice1 .text').innerHTML='<h3>you<br>('+val1+')</br></h3>';
+    document.querySelector('.dice2 .text').innerHTML='<h3>computer<br>('+val2+')</br></h3>';
 
 }
 else if(val1<val2)
 {
     document.querySelector('h1').innerHTML='player2 wins';
-    document.querySelector('.dice1 .text').innerHTML='<h3>player1<br>('+val1+')</br></h3>';
-    document.querySelector('.dice2 .text').innerHTML='<h3>player2<br>('+val2+')</br></h3>';
+    document.querySelector('.dice1 .text').innerHTML='<h3>you<br>('+val1+')</br></h3>';
+    document.querySelector('.dice2 .text').innerHTML='<h3>computer<br>('+val2+')</br></h3>';
 }
 else
 {
     document.querySelector('h1').innerHTML='Draw';
-    document.querySelector('.dice1 .text').innerHTML='<h3>player1<br>('+val1+')</br></h3>';
-    document.querySelector('.dice2 .text').innerHTML='<h3>player2<br>('+val2+')</br></h3>';
+    document.querySelector('.dice1 .text').innerHTML='<h3>you<br>('+val1+')</br></h3>';
+    document.querySelector('.dice2 .text').innerHTML='<h3>computer<br>('+val2+')</br></h3>';
 }
